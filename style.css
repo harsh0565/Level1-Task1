@@ -1,0 +1,175 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    position: sticky;
+    top: 0%;
+}
+#navbar1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+#toggle{
+    display: none;
+}
+#logo > span{
+    font-size: 2em;
+    margin: 5px 10px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 10px;
+    color: blue;
+}
+ul{
+   display: flex;
+}
+
+#navbar1 ul li{
+    list-style: none;
+    font-size: 20px;
+}
+#navbar1 ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 3px 20px;
+    border-radius: 20px;
+}
+#navbar1 ul li a:hover{
+   background-color: cornsilk;
+    color: black
+
+}
+
+@media all and (max-width: 690px) {
+    
+    ul{
+        position: absolute;
+        top: 22px;
+        left: 257px;
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        display: none;
+        background-color: ivory;
+    }
+    #toggle{
+        position: absolute;
+        display: block;
+        margin-left: 20px;
+        right: 0%;
+        
+    
+        height: 30px;
+        cursor: pointer;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+}
+body{
+
+    background-color: gainsboro;
+}
+#secondDiv , h1,h3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+#thirdDiv{
+    overflow: hidden;
+    flex-wrap: wrap;
+   margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.intern{
+
+    height: 400px;
+    width: 600px;
+}
+#leftSide{
+    display: flex;
+    flex-direction: column;
+}
+#leftSide > p{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+    width: 40em;
+    font-style: italic;
+}
+.servies{
+    justify-content: center;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: inline;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(186, 209, 201);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.service> p{
+    overflow: hidden;
+}
+h3{
+    color:#0a34aa;
+    margin-bottom: 20px;
+}
+
+.internship-section{
+margin-top: 50px;
+}
+
+#internships{
+    border-radius: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+#internships > li{
+    font-style: italic;
+    font-size: larger;
+    margin: 5px;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.apply{
+padding: 5px 4px ;
+}
+.apply >button{
+background-color: rgb(90, 54, 62);
+}
+
+footer{
+    border-top: 1px solid gray;
+    text-align: center;
+    margin-top: 30px;
+}
+
